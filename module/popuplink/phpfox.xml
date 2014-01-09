@@ -1,0 +1,43 @@
+<module>
+	<data>
+		<module_id>popuplink</module_id>
+		<product_id>popuplink</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu><![CDATA[a:2:{s:35:"popuplink.admin_menu_manages_popups";a:1:{s:3:"url";a:1:{i:0;s:9:"popuplink";}}s:30:"popuplink.admin_menu_add_popup";a:1:{s:3:"url";a:2:{i:0;s:9:"popuplink";i:1;s:3:"add";}}}]]></menu>
+		<phrase_var_name>module_popuplink</phrase_var_name>
+	</data>
+	<phrases>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="admin_menu_manages_popups" added="1351571459">Manages Popups</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="module_popuplink" added="1351571459">Manages Popups</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="manage_popup_links" added="1351571548">Manage Popup Links</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="name" added="1351571580">Name</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="type" added="1351571595">Type</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="active" added="1351571608">Active</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="deactivate" added="1351571617">Deactivate</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="there_are_no_popup_content_added" added="1351571745">There are no popup content added</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="admin_menu_add_popup" added="1351571820">Add Popup</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="details" added="1351571965">Details</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="please_select_type_of_popup" added="1351574796">Please select type of popup</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="fill_the_name_of_popup" added="1351574829">Fill the name of popup</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="add_new_popup_successfully" added="1351574983">Add new popup successfully.</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="update_popup_successfully" added="1351575028">Update popup successfully</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="edit_the_popup" added="1351575062">Edit the popup</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="create_new_popup" added="1351575076">Create new popup</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="is_active" added="1351575241">Is Active</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="html_content" added="1351575291">HTML Content</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="update" added="1351575325">Update</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="add" added="1351575330">Add</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="html" added="1351577210">HTML</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="display_in" added="1351577270">Display In</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="controller" added="1351577330">Controller</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="special_link" added="1351577360">Special Link</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="content_type" added="1351578863">Content Type</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="iframe" added="1351578885">Iframe</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="iframe_link" added="1351581327">IFRAME Link</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="activate" added="1351583257">Active</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="delete_popup_successfully" added="1351583433">Delete popup successfully.</phrase>
+		<phrase module_id="popuplink" version_id="3.3.0" var_name="ads_code" added="1351610146">Ads Code</phrase>
+	</phrases>
+</module>

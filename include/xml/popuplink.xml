@@ -1,0 +1,35 @@
+<product>
+	<data>
+		<product_id>popuplink</product_id>
+		<is_core>0</is_core>
+		<title>Popup HTML with defined links</title>
+		<description>Popup HTML with defined links</description>
+		<version>3.0.2</version>
+		<latest_version></latest_version>
+		<last_check>1351609864</last_check>
+		<is_active>1</is_active>
+		<url></url>
+		<url_version_check></url_version_check>
+	</data>
+	<installs>
+		<install>
+			<version>3.0.1</version>
+			<install_code><![CDATA[$this->database()->query("
+CREATE TABLE IF NOT EXISTS `".phpfox::getT('popup_link')."` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `description` text,
+  `is_active` tinyint(4) NOT NULL DEFAULT '0',
+  `type_id` varchar(50) NOT NULL DEFAULT 'html',
+  `type_data` text,
+  `display_in` varchar(255) DEFAULT NULL,
+  `display_data` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=1 ;");]]></install_code>
+			<uninstall_code></uninstall_code>
+		</install>
+	</installs>
+	<modules>
+		<module_id>popuplink</module_id>
+	</modules>
+</product>
